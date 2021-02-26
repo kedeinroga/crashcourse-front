@@ -5,7 +5,7 @@
   justify-content: space-between;
   height: 304px;
   width: 100%;
-  background-color: #f6f7f9;
+  background-color: var(--color-background);
   padding: 50px 20.5px;
 }
 
@@ -18,15 +18,10 @@
 }
 
 .button__comprar {
-  background: #181b32;
-  color: #fff;
+  background-color: var(--color-black);
+  color: var(--color-white);
   border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   padding: 14px 40px;
-  font-family: Inter;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
