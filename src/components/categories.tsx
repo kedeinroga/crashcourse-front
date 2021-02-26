@@ -1,5 +1,6 @@
 import React from "react";
 import "./categories.css";
+import Pagination from "./Pagination";
 // import megaphono from "./../assets/images/megaphono.svg";
 
 function Categories() {
@@ -48,6 +49,7 @@ function Categories() {
           <p>Categoria</p>
         </div>
       </div>
+      <Pagination />
     </div>
   );
 }
