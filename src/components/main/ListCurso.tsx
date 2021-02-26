@@ -1,7 +1,7 @@
 import React from "react";
 import "./ListCurso.css";
-import CardCurso from "./CardCurso";
-import Button from "./Button";
+import CardCurso from "../UI/CardCurso";
+import Button from "../UI/Buttons/Button";
 
 function ListCurso() {
   return (

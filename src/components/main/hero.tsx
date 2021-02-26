@@ -1,6 +1,6 @@
 import React from "react";
 import "./hero.css";
-import Button from "./Button";
+import Button from "../UI/Buttons/Button";
 
 function Hero() {
   return (
