@@ -1,5 +1,6 @@
 import React from "react";
 import "./hero.css";
+import Button from "./Button";
 
 function Hero() {
   return (
@@ -7,7 +8,7 @@ function Hero() {
       <div className="hero__title">
         <h2>Title H2 - banner cursos nuevos</h2>
       </div>
-      <button className="button__comprar">Comprar ahora</button>
+      <Button />
     </div>
   );
 }

@@ -16,17 +16,3 @@
   height: 132px;
   width: 250px;
 }
-
-.button__comprar {
-  background-color: var(--color-black);
-  color: var(--color-white);
-  border-radius: 10px;
-  padding: 14px 40px;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 20px;
-  letter-spacing: 0.4px;
-  text-align: center;
-  border: none;
-}
