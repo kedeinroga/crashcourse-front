@@ -2,11 +2,12 @@ import React, { Fragment } from "react";
 import logo from "./assets/images/crashcourse.svg";
 import "./App.css";
 
+import Header from "./components/header";
+
 function App() {
   return (
     <Fragment>
-      <h1>Crashcourse</h1>
-      <img src={logo} alt="Crashcourse" />
+      <Header />
     </Fragment>
   );
 }
