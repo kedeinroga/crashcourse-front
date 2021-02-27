@@ -4,6 +4,7 @@ import "./CursoDetail.css";
 import Header from "../components/header";
 import BannerVideo from "../components/cursodetail/BannerVideo";
 import CursoInfo from "../components/cursodetail/CursoInfo";
+import IconsAction from "../components/UI/IconsAction";
 
 function CursoDetail() {
   return (
@@ -11,6 +12,7 @@ function CursoDetail() {
       <Header />
       <BannerVideo />
       <CursoInfo />
+      <IconsAction />
     </Fragment>
   );
 }
