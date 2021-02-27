@@ -10,8 +10,24 @@
   gap: 30px;
 }
 
+.content-button__filter {
+  width: 100%;
+}
+
+.content-select__filter {
+  display: none;
+}
+
 @media only screen and (min-width: 480px) {
   .pagination {
     display: none;
+  }
+
+  .content-button__filter {
+    display: none;
+  }
+
+  .content-select__filter {
+    display: inline;
   }
 }

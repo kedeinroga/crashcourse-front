@@ -1,0 +1,59 @@
+.from-filters {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.from-filters div {
+  display: flex;
+  flex-direction: column;
+  width: 212px;
+}
+
+.from-filters label {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0px;
+  color: var(--color-black);
+}
+
+.from-filters select {
+  border: 1px solid var(--color-gray);
+  color: var(--color-gray);
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 12px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  text-align: left;
+  appearance: none;
+  background-image: url("../../assets/images/arrow-down-s-line.svg"),
+    linear-gradient(to bottom, var(--color-white) 0%, var(--color-white) 100%);
+  background-repeat: no-repeat, repeat;
+  background-position: right 0.7em top 50%, 0 0;
+  background-color: var(--color-white);
+}
+
+.from-filters select:hover {
+  border-color: var(--color-black);
+}
+
+.button-filter {
+  background-color: #181b32;
+  border-radius: 10px;
+  padding: 14px 40px;
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 20px;
+  letter-spacing: 0.4px;
+  text-align: center;
+  height: auto;
+  margin-top: auto;
+}
