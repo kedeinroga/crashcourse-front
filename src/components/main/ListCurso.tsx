@@ -1,6 +1,7 @@
 import React from "react";
 import "./ListCurso.css";
 import CardCurso from "./CardCurso";
+import Pagination from "../UI/Pagination";
 
 import ButonFilter from "../UI/Buttons/ButonFilter";
 
@@ -11,6 +12,7 @@ function ListCurso() {
       <ButonFilter />
       <CardCurso />
       <CardCurso />
+      <Pagination />
     </div>
   );
 }
