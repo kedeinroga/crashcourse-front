@@ -1,0 +1,29 @@
+.prof-info__content {
+  display: flex;
+  gap: 16px;
+}
+
+.prof-info__content--photo {
+  width: 64px;
+  height: 64px;
+  background: #e8eaf0;
+  border-radius: 10px;
+}
+
+.prof-info__content--name {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.prof-info__content--cargo {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  text-align: left;
+}

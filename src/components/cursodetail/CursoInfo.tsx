@@ -2,10 +2,11 @@ import "./CursoInfo.css";
 
 import IconCursoDetail from "../UI/IconCusoDetail";
 import CursoPrice from "../UI/CursoPrice";
+import CardInfoProf from "./CardInfoProf";
 
 function CursoInfo() {
   return (
-    <div>
+    <div className="info-curso__content">
       <h2>Title H2 - Nombre del curso</h2>
       <CursoPrice />
       <p>
@@ -14,7 +15,11 @@ function CursoInfo() {
         non. Enim sapien amet ut pharetra. Purus sagittis est felis sapien in.
         Auctor tellus, in mauris mi, facilisi arcu sedut.
       </p>
-      <IconCursoDetail />
+      <div className="info-curso__content--icons">
+        <IconCursoDetail />
+      </div>
+      <CardInfoProf />
+      <div className="info-curso__content--buttons"></div>
     </div>
   );
 }

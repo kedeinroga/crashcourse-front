@@ -1,0 +1,18 @@
+.info-curso__content {
+  margin: 26px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.info-curso__content h2 {
+  text-align: left;
+}
+
+.info-curso__content--icons {
+  width: 80%;
+}
+
+.info-curso__content--buttons {
+  background: #e8eaf0;
+}
