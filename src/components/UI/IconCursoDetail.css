@@ -1,0 +1,28 @@
+.curso-description__info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  color: #8d8d9d;
+  margin-bottom: 12px;
+}
+
+.curso-description__info li {
+  font-family: 16px;
+}
+
+.curso-description__info--data {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.curso-description__info--data p {
+  color: #8d8d9d;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  text-align: left;
+}
