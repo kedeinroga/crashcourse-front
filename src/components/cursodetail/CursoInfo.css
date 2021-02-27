@@ -15,4 +15,8 @@
 
 .info-curso__content--buttons {
   background: #e8eaf0;
+  padding: 24px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }

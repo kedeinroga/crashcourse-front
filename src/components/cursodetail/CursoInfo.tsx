@@ -1,6 +1,8 @@
 import "./CursoInfo.css";
 
 import IconCursoDetail from "../UI/IconCusoDetail";
+import Button from "../UI/Buttons/Button";
+import AddCart from "../UI/Buttons/AddCart";
 import CursoPrice from "../UI/CursoPrice";
 import CardInfoProf from "./CardInfoProf";
 
@@ -19,7 +21,10 @@ function CursoInfo() {
         <IconCursoDetail />
       </div>
       <CardInfoProf />
-      <div className="info-curso__content--buttons"></div>
+      <div className="info-curso__content--buttons">
+        <Button />
+        <AddCart />
+      </div>
     </div>
   );
 }
