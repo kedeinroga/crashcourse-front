@@ -3,12 +3,14 @@ import "./CursoDetail.css";
 
 import Header from "../components/header";
 import BannerVideo from "../components/cursodetail/BannerVideo";
+import CursoInfo from "../components/cursodetail/CursoInfo";
 
 function CursoDetail() {
   return (
     <Fragment>
       <Header />
       <BannerVideo />
+      <CursoInfo />
     </Fragment>
   );
 }

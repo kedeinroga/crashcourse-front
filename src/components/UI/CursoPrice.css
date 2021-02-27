@@ -1,0 +1,27 @@
+.curso-cost {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.ofert-price {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 32px;
+  letter-spacing: 0.4px;
+  text-align: left;
+  color: #181b32;
+}
+
+.real-price {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  text-align: left;
+  color: #8d8d9d;
+  text-decoration-line: line-through;
+}
