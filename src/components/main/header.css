@@ -109,7 +109,7 @@ input[type="checkbox"]:checked ~ .nav-close {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 24px 144px;
+    padding: 24px 0;
   }
 
   .nav-desktop div {
