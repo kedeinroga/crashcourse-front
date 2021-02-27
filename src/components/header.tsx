@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
-import logo from "../../assets/images/crashcourse.svg";
+import logo from "./../assets/images/crashcourse.svg";
 import "./header.css";
-import ButtonRegister from "../UI/Buttons/ButtonRegister";
+import ButtonRegister from "./UI/Buttons/ButtonRegister";
 
 function Header() {
   return (
