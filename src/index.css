@@ -45,4 +45,12 @@ p {
   body {
     padding: 24px 144px;
   }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  h4 {
+    font-size: 24px;
+  }
 }

@@ -1,7 +1,5 @@
-import React from "react";
 import "./categories.css";
 import Pagination from "../UI/Pagination";
-// import megaphono from "./../assets/images/megaphono.svg";
 
 function Categories() {
   return (

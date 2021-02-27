@@ -18,10 +18,6 @@
 }
 
 @media only screen and (min-width: 480px) {
-  .hero__title h2 {
-    font-size: 40px;
-  }
-
   .hero__title {
     height: 132px;
     width: 334px;
