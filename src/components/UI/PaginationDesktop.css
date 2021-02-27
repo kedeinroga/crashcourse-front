@@ -1,0 +1,64 @@
+.pagination-desk ul {
+  display: flex;
+  justify-content: flex-end;
+  gap: 40px;
+}
+
+.pagination-desk div {
+  display: flex;
+  gap: 24px;
+}
+
+.pagination-desk__numbers {
+  display: flex;
+  align-items: center;
+  height: auto;
+}
+
+.pagination-desk__numbers p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  text-align: left;
+  color: var(--color-gray);
+}
+
+.pagination-desk__numbers select {
+  background-color: var(--color-white);
+  border: 1px solid #e8eaf0;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 16px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  appearance: none;
+  background-image: url("../../assets/images/arrow-down-s-line.svg"),
+    linear-gradient(to bottom, var(--color-white) 0%, var(--color-white) 100%);
+  background-repeat: no-repeat, repeat;
+  background-position: right 0.7em top 50%, 0 0;
+  background-color: var(--color-white);
+  width: 70px;
+}
+
+.pagination-desk__numbers select:hover {
+  border-color: var(--color-black);
+}
+
+.ri-arrow-left-line {
+  font-size: 24px;
+  border: 2px solid #e8eaf0;
+  border-radius: 10px;
+  padding: 12px;
+}
+
+.ri-arrow-right-line {
+  font-size: 24px;
+  border: 2px solid #e8eaf0;
+  border-radius: 10px;
+  padding: 12px;
+}

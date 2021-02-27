@@ -5,6 +5,7 @@ import Pagination from "../UI/Pagination";
 
 import ButonFilter from "../UI/Buttons/ButonFilter";
 import FormInput from "../UI/FormInput";
+import PaginationDesktop from "../UI/PaginationDesktop";
 
 function ListCurso() {
   return (
@@ -24,6 +25,7 @@ function ListCurso() {
         <CardCurso />
       </div>
       <Pagination />
+      <PaginationDesktop />
     </div>
   );
 }
