@@ -16,8 +16,13 @@ function ListCurso() {
       <div className="content-button__filter">
         <ButonFilter />
       </div>
-      <CardCurso />
-      <CardCurso />
+      <div className="content-cursos__cards">
+        <CardCurso />
+        <CardCurso />
+        <CardCurso />
+        <CardCurso />
+        <CardCurso />
+      </div>
       <Pagination />
     </div>
   );

@@ -30,4 +30,10 @@
   .content-select__filter {
     display: inline;
   }
+
+  .content-cursos__cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
 }
