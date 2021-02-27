@@ -11,11 +11,13 @@
 
 .info-curso__content--icons {
   width: 80%;
+  margin-bottom: 40px;
 }
 
 .info-curso__content--buttons {
   background: #e8eaf0;
   padding: 24px 20px;
+  margin: 40px -20px;
   display: flex;
   flex-direction: column;
   gap: 24px;
