@@ -7,6 +7,7 @@ import CursoInfo from "../components/cursodetail/CursoInfo";
 import IconsAction from "../components/UI/IconsAction";
 import CourseSyllabus from "../components/cursodetail/CourseSyllabus";
 import CourseAbout from "../components/cursodetail/CourseAbout";
+import CourseProjects from "../components/cursodetail/CourseProjects";
 
 function CursoDetail() {
   return (
@@ -17,6 +18,7 @@ function CursoDetail() {
       <IconsAction />
       <CourseSyllabus />
       <CourseAbout />
+      <CourseProjects />
     </Fragment>
   );
 }

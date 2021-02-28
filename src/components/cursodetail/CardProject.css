@@ -1,0 +1,23 @@
+.card-project {
+  height: 160px;
+  width: 160px;
+  border-radius: 10px;
+  background: var(--color-gray);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 16px;
+}
+
+.card-project__data {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.card-project__data--photo {
+  height: 26px;
+  width: 26px;
+  background-color: var(--color-black);
+  border-radius: 13px;
+}

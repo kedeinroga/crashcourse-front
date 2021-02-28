@@ -1,0 +1,20 @@
+.project-content {
+  margin-left: 20px;
+}
+
+.cards-content {
+  display: flex;
+  /* flex-wrap: nowrap; */
+  gap: 8px;
+}
+
+.project-content__title {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #000000;
+  margin-bottom: 24px;
+}
