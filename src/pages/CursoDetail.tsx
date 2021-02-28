@@ -9,6 +9,7 @@ import CourseSyllabus from "../components/cursodetail/CourseSyllabus";
 import CourseAbout from "../components/cursodetail/CourseAbout";
 import CourseProjects from "../components/cursodetail/CourseProjects";
 import Ratings from "../components/cursodetail/Ratings";
+import FrequentQuestions from "../components/cursodetail/FrequentQuestions";
 
 function CursoDetail() {
   return (
@@ -21,6 +22,7 @@ function CursoDetail() {
       <CourseAbout />
       <CourseProjects />
       <Ratings />
+      <FrequentQuestions />
     </Fragment>
   );
 }

@@ -1,0 +1,29 @@
+.ask-card {
+  border: 1px solid #e8eaf0;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-color: #ffffff;
+  padding: 29.5px 16px 16px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.ask-card__value {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.ask-card__body {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: var(--color-gray);
+}
