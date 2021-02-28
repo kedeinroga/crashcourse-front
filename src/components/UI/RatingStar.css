@@ -102,3 +102,13 @@
   display: flex;
   gap: 9px;
 }
+
+@media only screen and (min-width: 480px) {
+  .rating-star__bars--level {
+    width: 241px;
+  }
+
+  .rating-star__content--barstar {
+    gap: 153px;
+  }
+}
