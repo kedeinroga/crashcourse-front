@@ -1,0 +1,13 @@
+.ratings-content {
+  padding: 40px 20px;
+}
+
+.ratings-content__title {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #000000;
+}

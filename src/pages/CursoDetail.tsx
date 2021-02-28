@@ -8,6 +8,7 @@ import IconsAction from "../components/UI/IconsAction";
 import CourseSyllabus from "../components/cursodetail/CourseSyllabus";
 import CourseAbout from "../components/cursodetail/CourseAbout";
 import CourseProjects from "../components/cursodetail/CourseProjects";
+import Ratings from "../components/cursodetail/Ratings";
 
 function CursoDetail() {
   return (
@@ -19,6 +20,7 @@ function CursoDetail() {
       <CourseSyllabus />
       <CourseAbout />
       <CourseProjects />
+      <Ratings />
     </Fragment>
   );
 }
