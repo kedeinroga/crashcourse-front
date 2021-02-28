@@ -1,0 +1,32 @@
+.rating-coment__content {
+  margin-top: 36px;
+}
+
+.rating-coment__content--body {
+  color: var(--color-black);
+}
+
+.rating-coment__user--data {
+  display: flex;
+  flex-direction: column;
+}
+
+.rating-coment__user {
+  display: flex;
+  gap: 3px;
+  margin-bottom: 16px;
+}
+
+.rating-coment__user--photo {
+  height: 40px;
+  width: 40px;
+  border-radius: 10px;
+  background: #e8eaf0;
+}
+
+.rating-coment__user--data p {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0px;
+}
