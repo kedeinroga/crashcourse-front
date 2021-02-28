@@ -6,6 +6,7 @@ import BannerVideo from "../components/cursodetail/BannerVideo";
 import CursoInfo from "../components/cursodetail/CursoInfo";
 import IconsAction from "../components/UI/IconsAction";
 import CourseSyllabus from "../components/cursodetail/CourseSyllabus";
+import CourseAbout from "../components/cursodetail/CourseAbout";
 
 function CursoDetail() {
   return (
@@ -15,6 +16,7 @@ function CursoDetail() {
       <CursoInfo />
       <IconsAction />
       <CourseSyllabus />
+      <CourseAbout />
     </Fragment>
   );
 }

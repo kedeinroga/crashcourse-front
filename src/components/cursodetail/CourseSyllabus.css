@@ -1,5 +1,7 @@
 .sylabus-content {
-  margin: 24px 20px;
+  padding: 24px 20px;
+  background-color: var(--color-background);
+  margin-top: 38.8px;
 }
 
 .sylabus-content h3 {
@@ -38,8 +40,12 @@
   border: none;
   appearance: none;
   background-image: url("../../assets/images/arrow-down-s-line.svg"),
-    linear-gradient(to bottom, var(--color-white) 0%, var(--color-white) 100%);
+    linear-gradient(
+      to bottom,
+      var(--color-background) 0%,
+      var(--color-background) 100%
+    );
   background-repeat: no-repeat, repeat;
   background-position: right 0.7em top 50%, 0 0;
-  background-color: var(--color-white);
+  background-color: var(--color-background);
 }
