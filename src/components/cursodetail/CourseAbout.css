@@ -29,3 +29,10 @@
   background-position: right 0.7em top 50%, 0 0;
   background-color: var(--color-white);
 }
+
+@media only screen and (min-width: 480px) {
+  .course-about__content {
+    max-width: 662px;
+    margin: 49.25px 0;
+  }
+}
