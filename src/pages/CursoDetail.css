@@ -1,0 +1,19 @@
+.desktop {
+  display: none;
+}
+
+@media only screen and (min-width: 480px) {
+  .course-info__content {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .course-info__content--div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .desktop {
+    display: inline;
+  }
+}

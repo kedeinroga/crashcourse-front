@@ -10,14 +10,28 @@ import CourseAbout from "../components/cursodetail/CourseAbout";
 import CourseProjects from "../components/cursodetail/CourseProjects";
 import Ratings from "../components/cursodetail/Ratings";
 import FrequentQuestions from "../components/cursodetail/FrequentQuestions";
+import CursoPrice from "../components/UI/CursoPrice";
+import Button from "../components/UI/Buttons/Button";
+import AddCart from "../components/UI/Buttons/AddCart";
 
 function CursoDetail() {
   return (
     <Fragment>
       <Header />
-      <BannerVideo />
-      <CursoInfo />
-      <IconsAction />
+      <div className="course-info__content">
+        <div>
+          <BannerVideo />
+          <div className="desktop">
+            <CursoPrice />
+            <Button />
+            <AddCart />
+          </div>
+        </div>
+        <div className="course-info__content--div">
+          <CursoInfo />
+          <IconsAction />
+        </div>
+      </div>
       <CourseSyllabus />
       <CourseAbout />
       <CourseProjects />

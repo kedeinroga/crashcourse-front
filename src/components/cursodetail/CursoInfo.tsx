@@ -10,7 +10,9 @@ function CursoInfo() {
   return (
     <div className="info-curso__content">
       <h2>Title H2 - Nombre del curso</h2>
-      <CursoPrice />
+      <div className="mobile">
+        <CursoPrice />
+      </div>
       <p>
         Body 3- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id mi,
         mauris aliquam phasellus quis semper diam fringilla. Nunc nullam est in
@@ -21,7 +23,7 @@ function CursoInfo() {
         <IconCursoDetail />
       </div>
       <CardInfoProf />
-      <div className="info-curso__content--buttons">
+      <div className="info-curso__content--buttons mobile">
         <Button />
         <AddCart />
       </div>
