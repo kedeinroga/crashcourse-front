@@ -6,14 +6,24 @@
   .course-info__content {
     display: flex;
     flex-direction: row-reverse;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 26px;
   }
 
   .course-info__content--div {
     display: flex;
     flex-direction: column;
+    max-width: 662px;
   }
 
   .desktop {
     display: inline;
+  }
+  .course-info__content--video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }

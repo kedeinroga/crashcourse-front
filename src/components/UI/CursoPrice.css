@@ -25,3 +25,17 @@
   color: #8d8d9d;
   text-decoration-line: line-through;
 }
+
+@media only screen and (min-width: 480px) {
+  .ofert-price {
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 44px;
+  }
+
+  .real-price {
+    font-size: 24px;
+    line-height: 16px;
+    letter-spacing: 0.1px;
+  }
+}

@@ -35,3 +35,10 @@
 .ri-compass-discover-line {
   font-size: 24px;
 }
+
+@media only screen and (min-width: 480px) {
+  .icons-action__content {
+    width: 60%;
+    margin-top: 40px;
+  }
+}

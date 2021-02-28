@@ -19,9 +19,9 @@ function CursoDetail() {
     <Fragment>
       <Header />
       <div className="course-info__content">
-        <div>
+        <div className="course-info__content--video">
           <BannerVideo />
-          <div className="desktop">
+          <div className="content__price-buttons desktop">
             <CursoPrice />
             <Button />
             <AddCart />
