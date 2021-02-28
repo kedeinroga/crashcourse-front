@@ -6,7 +6,7 @@
   .course-info__content {
     display: flex;
     flex-direction: row-reverse;
-    justify-content: flex-start;
+    justify-content: flex-end;
     flex-wrap: wrap;
     gap: 128px;
     margin-top: 68px;

@@ -12,4 +12,6 @@
   line-height: 16px;
   letter-spacing: 0.4px;
   text-align: center;
+  text-decoration: none;
+  color: var(--color-black);
 }
