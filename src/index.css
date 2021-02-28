@@ -41,6 +41,15 @@ p {
   color: var(--color-black);
 }
 
+h3 {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 44px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
 @media only screen and (min-width: 480px) {
   body {
     padding: 24px 144px;

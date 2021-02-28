@@ -1,0 +1,45 @@
+.sylabus-content {
+  margin: 24px 20px;
+}
+
+.sylabus-content h3 {
+  color: #000000;
+}
+
+.sylabus-content ul {
+  margin-bottom: 28.75px;
+}
+
+.sylabus-content__title {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  text-align: left;
+  color: var(--color-black);
+  margin-bottom: 16px;
+}
+
+.sylabus-content__item {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: var(--color-black);
+  list-style: none;
+  margin-bottom: 11.75px;
+}
+
+.select-sylabus {
+  width: 96px;
+  border: none;
+  appearance: none;
+  background-image: url("../../assets/images/arrow-down-s-line.svg"),
+    linear-gradient(to bottom, var(--color-white) 0%, var(--color-white) 100%);
+  background-repeat: no-repeat, repeat;
+  background-position: right 0.7em top 50%, 0 0;
+  background-color: var(--color-white);
+}
