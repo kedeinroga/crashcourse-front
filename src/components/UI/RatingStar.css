@@ -108,7 +108,17 @@
     width: 241px;
   }
 
+  .rating-star__content {
+    display: flex;
+    margin-top: 27px;
+    gap: 40px;
+  }
+
   .rating-star__content--barstar {
-    gap: 153px;
+    gap: 32px;
+  }
+
+  .rating-star__score {
+    flex-direction: column;
   }
 }

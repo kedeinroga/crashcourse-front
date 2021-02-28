@@ -35,4 +35,9 @@
   .rating-coment__content--body {
     max-width: 564px;
   }
+
+  .rating-coment__user {
+    margin-bottom: 33px;
+    gap: 16px;
+  }
 }
