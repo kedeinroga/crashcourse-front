@@ -9,6 +9,10 @@
   padding: 16px;
 }
 
+.card-project__data--user {
+  color: var(--color-white);
+}
+
 .card-project__data {
   display: flex;
   align-items: center;
@@ -23,4 +27,17 @@
 }
 
 @media only screen and (min-width: 480px) {
+  .card-project {
+    max-width: 662px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    height: 150px;
+    width: 150px;
+  }
+
+  .card-big {
+    height: 320px;
+    width: 320px;
+  }
 }

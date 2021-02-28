@@ -18,3 +18,30 @@
   color: #000000;
   margin-bottom: 24px;
 }
+
+.cards-content__desktop {
+  display: flex;
+}
+
+@media only screen and (min-width: 480px) {
+  .cards-content {
+    gap: 20px;
+    width: auto;
+  }
+
+  .cards-content__desktop {
+    flex-wrap: wrap;
+    display: flex;
+    max-width: 350px;
+    gap: 20px;
+  }
+
+  .project-content {
+    margin-left: 0;
+  }
+
+  .project-content__title {
+    font-size: 32px;
+    line-height: 44px;
+  }
+}
