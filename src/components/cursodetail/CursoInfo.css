@@ -40,4 +40,8 @@
   .info-curso__content {
     margin: 0 0;
   }
+
+  .info-curso__content p {
+    max-width: 560px;
+  }
 }

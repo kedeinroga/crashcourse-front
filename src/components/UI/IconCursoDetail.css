@@ -26,3 +26,9 @@
   letter-spacing: 0.1px;
   text-align: left;
 }
+
+@media only screen and (min-width: 480px) {
+  .curso-description__info {
+    justify-content: start;
+  }
+}
