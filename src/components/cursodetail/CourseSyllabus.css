@@ -49,3 +49,10 @@
   background-position: right 0.7em top 50%, 0 0;
   background-color: var(--color-background);
 }
+
+@media only screen and (min-width: 480px) {
+  .sylabus-content {
+    margin: 0 -145px;
+    padding: 49.25px 145px;
+  }
+}

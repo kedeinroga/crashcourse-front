@@ -9,6 +9,7 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 26px;
+    margin-top: 68px;
   }
 
   .course-info__content--div {

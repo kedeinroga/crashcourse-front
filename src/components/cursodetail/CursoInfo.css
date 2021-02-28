@@ -36,4 +36,8 @@
     padding: 30px 24px;
     gap: 15px;
   }
+
+  .info-curso__content {
+    margin: 0 0;
+  }
 }
