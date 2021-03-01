@@ -1,0 +1,18 @@
+.header-checkout {
+  background-color: var(--color-black);
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-checkout div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6.6px;
+}
+
+.header-checkout i {
+  color: var(--color-white);
+}
