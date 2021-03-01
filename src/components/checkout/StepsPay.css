@@ -1,0 +1,48 @@
+.steps-pay {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin: 20px 0 27px 20px;
+}
+
+.step {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.step-circle {
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.one {
+  background-color: var(--color-black);
+  color: var(--color-white);
+}
+
+.two {
+  background-color: #dfe1e6;
+  color: var(--color-white);
+}
+
+.step p {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.step-one {
+  color: #070e27;
+}
+
+.step-two {
+  color: #dfe1e6;
+}
