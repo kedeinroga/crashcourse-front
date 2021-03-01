@@ -4,6 +4,7 @@ import "./Checkout.css";
 import HeaderCheckout from "../components/checkout/HeaderCheckout";
 import StepsPay from "../components/checkout/StepsPay";
 import PaymentSummary from "../components/checkout/PaymentSummary";
+import PaymentMethod from "../components/checkout/PaymentMethod";
 
 function Checkout() {
   return (
@@ -11,6 +12,7 @@ function Checkout() {
       <HeaderCheckout />
       <StepsPay />
       <PaymentSummary />
+      <PaymentMethod />
     </Fragment>
   );
 }
