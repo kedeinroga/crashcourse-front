@@ -1,0 +1,97 @@
+.summary {
+  margin: 16px 20px;
+}
+
+.summary-card {
+  background: rgba(141, 141, 157, 0.08);
+  border-radius: 2px;
+  padding: 16px;
+  margin-top: 16px;
+}
+
+.summary-card__photo {
+  height: 96px;
+  width: 128px;
+  border-radius: 10px;
+  background: var(--color-gray);
+  margin-bottom: 16px;
+}
+.summary-card__data {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.summary__name--course {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: var(--color-black);
+}
+
+.summary__name--teacher {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: var(--color-black);
+}
+
+.summary__cost {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.summary__cost--text {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: var(--color-black);
+}
+
+.Subtotal {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: var(--color-gray);
+}
+
+.total {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 20px;
+  letter-spacing: 0.4px;
+  text-align: right;
+  color: var(--color-black);
+}
+
+.summary-text {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: var(--color-black);
+}
+
+.summary-card__prices {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 16px;
+}
