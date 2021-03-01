@@ -46,3 +46,9 @@
 .step-two {
   color: #dfe1e6;
 }
+
+@media only screen and (min-width: 480px) {
+  .steps-pay {
+    margin: 46px 0 46px 0;
+  }
+}

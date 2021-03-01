@@ -15,14 +15,20 @@ function PaymentMethod() {
           <p>Tarjeta</p>
           <img src={card} alt="card" />
         </label>
-        <label>Correo electrónico</label>
-        <input className="form-inout__text" type="text" />
-        <label>Número de tarjeta</label>
-        <input className="form-inout__text" type="text" />
-        <label>Fecha de vencimiento</label>
-        <input className="form-inout__text" type="text" />
-        <label>Código de seguridad</label>
-        <input className="form-inout__text" type="text" />
+        <label className="payment__label">Correo electrónico</label>
+        <input className="form-input__text" type="text" />
+        <label className="payment__label">Número de tarjeta</label>
+        <input className="form-input__text" type="text" />
+        <div className="content__expi-seg">
+          <div>
+            <label className="payment__label">Fecha de vencimiento</label>
+            <input className="form-input__text" type="date" />
+          </div>
+          <div>
+            <label className="payment__label">Código de seguridad</label>
+            <input className="form-input__text" type="text" />
+          </div>
+        </div>
       </form>
       <label className="payment-method__label other">
         <input type="radio" name="paypal" />

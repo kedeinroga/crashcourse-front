@@ -1,0 +1,31 @@
+.checkout-desktop {
+  display: none;
+}
+@media only screen and (min-width: 480px) {
+  .checkout-desktop {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .checkout-mobile {
+    display: none;
+  }
+
+  .checkout-desktop__one {
+    display: flex;
+    flex-direction: column;
+    width: 564px;
+  }
+
+  .checkout-desktop__two {
+    display: flex;
+    flex-direction: column;
+    width: 608px;
+    height: 100vh;
+    padding: 43px 72px;
+    gap: 59px;
+    margin-right: -80px;
+    background-color: var(--color-background);
+  }
+}

@@ -11,10 +11,22 @@ function Checkout() {
   return (
     <Fragment>
       <HeaderCheckout />
-      <StepsPay />
-      <PaymentSummary />
-      <PaymentMethod />
-      <LegalNotes />
+      <div className="checkout-mobile">
+        <StepsPay />
+        <PaymentSummary />
+        <PaymentMethod />
+        <LegalNotes />
+      </div>
+      <div className="checkout-desktop">
+        <div className="checkout-desktop__one">
+          <StepsPay />
+          <PaymentMethod />
+        </div>
+        <div className="checkout-desktop__two">
+          <PaymentSummary />
+          <LegalNotes />
+        </div>
+      </div>
     </Fragment>
   );
 }
