@@ -5,6 +5,7 @@ import HeaderCheckout from "../components/checkout/HeaderCheckout";
 import StepsPay from "../components/checkout/StepsPay";
 import PaymentSummary from "../components/checkout/PaymentSummary";
 import PaymentMethod from "../components/checkout/PaymentMethod";
+import LegalNotes from "../components/checkout/LegalNotes";
 
 function Checkout() {
   return (
@@ -13,6 +14,7 @@ function Checkout() {
       <StepsPay />
       <PaymentSummary />
       <PaymentMethod />
+      <LegalNotes />
     </Fragment>
   );
 }
